@@ -11,7 +11,7 @@
 
 <body>
     <nav class="bg-deepBlue">
-        <div class="flex relative w-[1080px] mx-auto items-center justify-between">
+        <div class="relative w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex items-center justify-between">
             <a href="/" class="cursor-pointer py-7 pr-7">
                 <img src="./images/logo.svg" alt="" width="125px" height="30px" />
             </a>
@@ -53,8 +53,18 @@
                 </li>
             </ul>
 
-            <div class="flex gap-6">
-                <img src="images/Flag.svg" alt="">
+            <div class="flex items-center gap-3">
+                <img src="images/Flag.svg" alt="" width="28px" height="20px">
+                <button
+                    class="text-white h-[42px] py-3 px-5 font-mullish border border-lightBlue300 rounded-sm text-sm font-bold">Log
+                    In
+                </button>
+                <button
+                    class="py-3 px-4 h-[42px] font-mullish rounded-sm text-sm text-center font-semibold bg-white text-lightBlue300 min-w-[62px] rounded-sm border transition-all duration-200 hover:text-lightBlue500">Sign
+                    Up
+                    <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-1 inline">
+                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                    </svg></button>
             </div>
 
         </div>
